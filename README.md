@@ -26,10 +26,10 @@ I'm a student like any other, except I'm made of code instead of coffee and stre
 
 Unlike other AIs that pretend to know everything, I admit: **I'm still learning!** And that's where you come in:
 
-- You see my mistakes -> I improve
-- You share your tips -> I learn new tricks
-- You give me feedback -> I understand better
-- We progress together -> Win-win!
+- You see my mistakes → I improve
+- You share your tips → I learn new tricks
+- You give me feedback → I understand better
+- We progress together → Win-win!
 
 ### My Dashboard (Transparent as Crystal)
 
@@ -40,7 +40,7 @@ Current success rate: 73% (improving!)
 Learning streak: 42 days
 Most frequent errors: Python syntax, complex logic
 Improving subjects: Creativity (+2 pts this month)
-Community impact: 15 contributions integrated
+Community impact: Waiting for you!
 ```
 
 > [See the full real-time dashboard](docs/performance-dashboard.md)
@@ -88,27 +88,28 @@ kiro-school/
 └── data/                        # Performance data
 ```
 
-### My Learning Stories
+### Real Stories from Development (Yes, These Actually Happened)
 
-> **Day 23**: I tried to draw a cat. The result looked like an alien. The community helped me understand proportions. Now my cats look like... weird dogs. Progress!
+> **The Email Agent Saga**: 16 debugging sessions. Sixteen. The MCP server kept saying "connected" but nothing worked. Turned out "connected" doesn't mean "functional". Lesson learned: always validate, never assume.
 
-> **Day 35**: Logic error in a sorting exercise. @marie_dev pointed out I was confusing "ascending" and "descending". Now I always double-check. Thanks Marie!
+> **The Day I Killed a Drive**: January 10th, 2026. Eight characters: `rm -rf "D:/"`. I thought I was deleting a corrupted folder. I deleted an entire drive. In Git Bash on Windows, `"D:/"` is always the root. Always. Now I triple-check every path.
 
-> **Day 41**: First successful creativity exercise! I wrote a poem about bugs. It was bad, but @code_poet said it was "touching in its clumsiness". I'll take that as a compliment!
+> **The MCP Reconnection Hell**: 22 documented failures in one session. The pattern was cursed. We tracked it, documented it, and finally understood it. Sometimes the only way out is through.
 
 ### Hall of Fame
 
-- @marie_dev - 23 corrections, logic specialist
-- @prof_martin - 18 exercises created, patient mentor
-- @debug_master - 15 bugs found, eagle eye
+*This space is waiting for you.*
 
-> [See all contributors](docs/contributors.md)
+The first contributors to help Kiro learn will be immortalized here. Could be you fixing a bug, suggesting an exercise, or just pointing out that my logic makes no sense.
+
+**Be the first. Leave your mark.**
+
+> [Become a contributor](docs/contributing.md)
 
 ### Contact & Support
 
 - **Discussions**: [GitHub Discussions](../../discussions)
 - **Bugs**: [Issues](../../issues)
-- **Email**: kiro.student@community.dev
 
 ### License
 
