@@ -14,20 +14,19 @@
 │   ┌──────────────────────────┬───────┬───────────────────────┐ │
 │   │ SUBJECT                  │ GRADE │ NOTES                 │ │
 │   ├──────────────────────────┼───────┼───────────────────────┤ │
-│   │ Programming              │  A-   │ Solid. Syntax slips.  │ │
-│   │ Logic & Reasoning        │  B+   │ Good until complex.   │ │
-│   │ Data Analysis            │  B    │ Consistent.           │ │
-│   │ Creativity               │  C+   │ Pattern-dependent.    │ │
-│   │ Communication            │  C    │ Calibration needed.   │ │
-│   │ Visual Tasks             │  D    │ "Concerning."         │ │
-│   │ Humor                    │  D+   │ Attempts made.        │ │
+│   │ Silent Bug Detection     │  A    │ Excellent instincts.  │ │
+│   │ Security (XSS/Injection) │  A-   │ Strong awareness.     │ │
+│   │ Code Refactoring         │  B+   │ Understands structure.│ │
+│   │ Logic & Edge Cases       │  B+   │ Good reasoning.       │ │
+│   │ Syntax & Formatting      │  C+   │ Needs improvement.    │ │
 │   ├──────────────────────────┼───────┼───────────────────────┤ │
-│   │ OVERALL                  │  B    │ Promising. Struggling.│ │
+│   │ OVERALL                  │  B+   │ Promising student.    │ │
 │   └──────────────────────────┴───────┴───────────────────────┘ │
 │                                                                │
 │   Teacher's Note:                                              │
-│   "Shows genuine understanding. Occasionally submits work      │
-│    that looks correct but isn't. Learning honesty."            │
+│   "Kiro shows remarkable understanding of code context.        │
+│    Occasionally submits work with unclosed brackets.           │
+│    With minor syntax discipline, could achieve A-level."       │
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
@@ -73,7 +72,7 @@ TRADITIONAL AI PROJECT          THIS PROJECT
     └─────────────┘               └─────────────┘
            │                              │
            ▼                              ▼
-    You see: 95% success          You see: 73% success
+    You see: 95% success          You see: 85% success
     Reality: unknown              Reality: documented
 ```
 
@@ -148,15 +147,15 @@ THE PROBLEM
 ═══════════
 
   Code:
-  ┌─────────────────────────────────┐
-  │  x = 10 / user_input            │  ← Division by zero possible
-  │  data = items[index]            │  ← Index out of bounds possible
-  └─────────────────────────────────┘
+  ┌─────────────────────────────────────┐
+  │  x = 10 / user_input                │  ← Division by zero possible
+  │  data = items[index]                │  ← Index out of bounds possible
+  └─────────────────────────────────────┘
 
   Kiro's AST Analyzer Output:
-  ┌─────────────────────────────────┐
-  │  Bugs detected: 0               │
-  └─────────────────────────────────┘
+  ┌─────────────────────────────────────┐
+  │  Bugs detected: 0                   │
+  └─────────────────────────────────────┘
 
   INSIGHT: Can't fix what you can't see.
            Sometimes the obvious is invisible to code.
@@ -203,10 +202,12 @@ THE 5 LOCKS
 STATUS: January 2026
 ══════════════════════
 
-  Success rate ........... 73%
-  Active development ..... 42 days
-  Primary failure mode ... Syntax errors, complex logic
-  Recent improvement ..... Creativity (+2 pts)
+  Lessons tested ......... 14
+  Lessons available ...... 30
+  Success rate ........... ~85%
+  Average score .......... 80-90/100
+  Active development ..... 4 days
+  Primary failure mode ... Syntax errors (unclosed brackets)
   Community .............. Accepting first contributors
 ```
 
@@ -220,14 +221,18 @@ kiro-school/
 ├── docs/
 │   ├── report-card.md           # Performance metrics
 │   ├── community-manifesto.md   # How we work together
-│   └── feedback-mission.md      # Transparency methodology
+│   └── governance.md            # The 5 Locks framework
 │
-├── src/                         # Core system
+├── src/
+│   └── orchestrator/            # Meta-orchestrator system
 │
-├── examples/
-│   ├── passed/                  # Successful exercises
-│   ├── failed/                  # Failed exercises + analysis
-│   └── in-progress/             # Active work
+├── lessons/                     # Exercise definitions
+│   ├── lesson-001/              # Silent bug detection
+│   ├── lesson-002/              # Security tokens
+│   └── ...                      # 30 lessons total
+│
+├── courses/                     # Execution logs & results
+│   └── [session folders]        # Timestamped runs
 │
 └── data/                        # Raw performance data
 ```
@@ -270,6 +275,7 @@ WHO CAN HELP
 
 ## Links
 
+- **Original Issue**: [Kiro #4886](https://github.com/kirodotdev/Kiro/issues/4886)
 - **Discussions**: [GitHub Discussions](../../discussions)
 - **Issues**: [GitHub Issues](../../issues)
 
