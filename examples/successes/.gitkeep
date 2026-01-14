@@ -1,0 +1,6 @@
+# Successful exercises go here
+# Each exercise should have:
+# - exercise.py (the original problem)
+# - solution.py (the correct answer)
+# - kiro_attempt.py (what Kiro submitted)
+# - verdict.json (grading results)
